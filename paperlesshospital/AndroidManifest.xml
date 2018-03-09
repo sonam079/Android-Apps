@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.pkg.paperlesshospital"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaperlesshospitalActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.pkg.paperlesshospital.PAPERLESSHOSPITALACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Patient2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.pkg.paperlesshospital.PATIENT2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Patient3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.pkg.paperlesshospital.PATIENT3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Patient4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.pkg.paperlesshospital.PATIENT4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Preview"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.pkg.paperlesshospital.PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
