@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PaperlesshospitalActivity!</string>
+    <string name="app_name">Paper Less Hospital</string>
+    <string name="hospital_prompt">Choose a Hospital</string>
+
+    <string-array name="hospital_array">
+        <item>Hospital A</item>
+        <item>Hospital B</item>
+        <item>Hospital C</item>
+        <item>Hospital D</item>
+        <item>Hospital E</item>
+        <item>Hospital F</item>
+    </string-array>
+
+</resources>
